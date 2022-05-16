@@ -6,7 +6,7 @@ import MovieListHeading from './components/MovieListHeading';
 import SearchBox  from './components/SearchBox';
 import AddFavorite from './components/AddToFavorites';
 import RemoveFavorites from './components/RemoveFavorites';
-
+// day la phan chinh
 const App = () => {
   const [movies, setMovies] = useState([]);
   const [searchValue, setSearchValue] = useState('');
